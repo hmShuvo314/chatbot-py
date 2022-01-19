@@ -1,5 +1,4 @@
 import json
-from random import shuffle
 import numpy as np
 from model import NeuralNetwork
 from nltk_utils import bag_of_words, stem, tokenize
