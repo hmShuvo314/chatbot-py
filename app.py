@@ -7,7 +7,7 @@ from chat import get_response
 app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
-def get_answer():
+def home():
     return "<h1>Working!</h1>"
 
 
