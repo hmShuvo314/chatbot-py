@@ -6,6 +6,11 @@ from chat import get_response
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def get_answer():
+    return "<h1>Working!</h1>"
+
+
 @app.route('/getresponse', methods=['GET'])
 def get_answer():
     question = request.get_json().get("message")
