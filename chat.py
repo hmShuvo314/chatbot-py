@@ -42,12 +42,12 @@ def get_response(msg):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if prob.item() > 0.80:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
 
-    return "The world is already full of confusion! Please don't add one more to it :)"
+    return "Oops! I am confused. Please refer to the contact page to resolve you query."
 
 
 if __name__ == "__main__":

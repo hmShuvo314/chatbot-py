@@ -8,18 +8,44 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Are you doing good?",
+        "Is everything alright?"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey, welcome to ...",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help you?",
+        "Glad to have you here!"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "What's your name?",
+        "What do I call you?",
+        "Nice to meet you!",
+        "I am Thomas!",
+        "Hi, My name is Shuvo!",
+        "how may I address you?",
+        "Glad to meet you!"
+      ],
+      "responses": [
+        "Hello! I am Nick!",
+        "Nice to meet you. My name is Nick",
+        "Hey! You can call me Nick :)"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Good Night",
+        "Have a nice day!"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,29 +54,60 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "You are very helpful!",
+        "You are my friend!",
+        "You are so Cool!",
+        "Do you want to be my friend?",
+        "I want to be your friend!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "I am glad that you find me helpfull!"
+      ]
     },
     {
       "tag": "items",
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "What can I buy from you?",
+        "What is available here?",
+        "what products can I get here",
+        "Do you sell ",
+        "Do you sell three piece",
+        "Can I get hijab here?",
+        "Can I buy some dress from you?",
+        "Is available here?",
+        "Is skirts available here?"
       ],
-      "responses": ["We sell coffee and tea", "We have coffee and tea"]
+      "responses": [
+        "We have one of the best collection of high quality fashion dresses for women. Please visit the dresses section for more details "
+      ]
     },
     {
       "tag": "payments",
       "patterns": [
         "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Do you accept Bkash?",
+        "Can I pay with Bkash?",
+        "Can I pay with my bank account?",
+        "Are you cash only?",
+        "How do you take payments?",
+        "What payment methods do you use?",
+        "Can I pay after receiving my order?",
+        "Do I have to pay now?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "At the moment, we are shipping the products using cash on delivery methods. So you can pay once you receive our products.",
+        "We are using cash on delivery methods to deliver the products. So you will be able to pay after you receive the products."
       ]
     },
     {
@@ -58,20 +115,50 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "How long will I need to wait to receive my orders?",
+        "How long will it take for my products to arrive?"
       ],
-      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+      "responses": [
+        "Our products delivery typically takes 2-4 business days",
+        "Shipping usually takes 2-4 business days",
+        "You are expected to receive your delivery within 2-4 business days"
+      ]
     },
     {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Can you be funny?",
+        "let's have fun!",
+        "I am bored!",
+        "I am not feeling good!"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "personal",
+      "patterns": [
+        "What is your age?",
+        "How old are you?",
+        "Are you male or female?",
+        "What is your gender?",
+        "Are you young?",
+        "Are you old?",
+        "Perhaps you are female, am I right?",
+        "How much do they pay you?",
+        "What is your salary?",
+        "Are you rich?"
+      ],
+      "responses": [
+        "Well, thank you for showing you interest in me! But I don't like to disclose my personal information. Please ask about our business!",
+        "Thanks for asking this. But my age, salary or gender are secrets! But I can help you if you have any question related to our products.",
+        "Sorry but I can't share this with you. What would you do with my personal information?"
       ]
     }
   ]
